@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+  <body>
+    <div class="container content">
+      <p></p>
+
+      <main>
+        {% for i in images %}
+          <div>
+            <img src='{{ url_for("static", filename="images/") + i }}'>
+          </div>
+        {% endfor %}
+      </main>
+
+      <footer class="footer">
+        <small>
+         suck a whole dick!!!!
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>
